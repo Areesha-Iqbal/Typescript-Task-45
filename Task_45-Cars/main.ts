@@ -15,31 +15,3 @@ let answer = createCar("Toyota","Corolla",{color:"Black"},{features:["Power wind
 
 //Print the car object
 console.log(answer);
-
-
-
-
-
-
-
-
-
-
-// type car = {
-//   manufacturer: string;
-//   model: string;
-//   [key: string]: any;
-// };
-// function createCar(
-//   manufacturer: string,
-//   model: string,
-//   optional: Record<string, any>
-// ): car {
-//   return {
-//     manufacturer,
-//     model,
-//     ...optional,
-//   };
-// }
-// const myCar: car = createCar("Toyota","Corolla",{color: "Black", year:"2024",Sunroof:"True"});
-// console.log(myCar);
